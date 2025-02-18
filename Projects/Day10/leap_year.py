@@ -3,7 +3,11 @@ def is_leap_year(year):
         if year % 100 == 0:
             if year % 400 == 0:
                 return True
-            return False
-        return True
-    return False
-print(is_leap_year(1900))
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
+check_leap_year = is_leap_year(2023)
+print(check_leap_year)
