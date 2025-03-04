@@ -21,6 +21,7 @@ for _ in range(200):
     jimmy.color(random_colors())
     jimmy.forward(30)
     jimmy.right(random.choice(direction))
+    
 
 
 screen.exitonclick()
